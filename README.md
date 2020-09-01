@@ -1,5 +1,7 @@
 # Tailwind Gallery
 
+![tailwind-poster](https://repository-images.githubusercontent.com/292131437/1cdac300-ecc6-11ea-83a5-4054e49be38b)
+
 ## About
 
 This is example how you can integrate a Tailwind technologie in your React project.
