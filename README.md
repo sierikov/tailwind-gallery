@@ -1,6 +1,7 @@
 # Tailwind Gallery
 
 ## About
+
 This is example how you can integrate a Tailwind technologie in your React project.
 
 ## Installation
@@ -20,35 +21,35 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
+Runs the app in the development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-It will also create a `main.css` with compiled tailwind styles in the assets folder.<br/>
+It will also create a `main.css` with compiled tailwind styles in the assets folder.  
 See also `watch:css` script.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits.  
 You will also see any lint errors in the console.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
+Builds the app for production to the `build` folder.  
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 Also it compiles a `tailwind.scss`. See `build:css` script.
 
-The build is minified and the filenames include the hashes.<br />
+The build is minified and the filenames include the hashes.  
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run watch:css`
 
-Builds all of `tailwind.scss` styles to `src/assets/main.css`.<br/>
+Builds all of `tailwind.scss` styles to `src/assets/main.css`.  
 Also builds a map file for debug puproses.
 
 ### `npm run build:css`
 
-As in `watch:css` it builds all of `tailwind.scss` styles to `src/assets/main.css`.<br/>
+As in `watch:css` it builds all of `tailwind.scss` styles to `src/assets/main.css`.  
 But builds no map files. Futher optimizations can be added with plugins.
 
 ### `npm run eject`
