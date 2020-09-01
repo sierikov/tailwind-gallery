@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import ImageCard from './components/ImageCard'
+import ImageCard from './components/ImageCard';
+
+import loader from './assets/images/loader.gif';
 
 function App() {
 
@@ -18,11 +20,12 @@ function App() {
   }, []);
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-3 grid-gap-4">
+      {isLoading ? <div className="flex content-center h-screen"> <img className="my-auto mx-auto" src={loader} alt="loader"/></div>
+      : <div className="grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-gap-4 ">
         {images.map( image => (
           <ImageCard key={image.id} image={image}/>
         ))}
-      </div>
+      </div>}
     </div>
   );
 }
