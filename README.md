@@ -11,7 +11,9 @@ To install and run this project follow these steps:
   1. Clone this repository
   2. Go in `you-directory/tailwind-gallery`
   3. `npm install`
-  4. `npm start`
+  4. Create `.env` file and paste there your Pixabay API Key (`REACT_APP_PIXABAY_API_KEY`).  
+  You can get it [here](https://pixabay.com/api/docs/)
+  5. `npm start`
 
   The complete list of npm-scripts is avalibale below.
 
