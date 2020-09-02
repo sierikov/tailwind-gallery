@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import ImageCard from './components/ImageCard';
+import ImageSearch from './components/ImageSearch';
 
 import loader from './assets/images/loader.gif';
 
@@ -19,7 +20,8 @@ function App() {
       .catch(console.error())
   }, []);
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto my-10">
+      <ImageSearch/>
       {isLoading ? <div className="flex content-center h-screen"> <img className="my-auto mx-auto" src={loader} alt="loader"/></div>
       : <div className="grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-gap-4 ">
         {images.map( image => (
