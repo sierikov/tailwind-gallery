@@ -5,8 +5,8 @@ const ImageCard = ({ image }) => {
   const tags = image.tags.split(',');
 
   return (
-    <div className="max-w-sm md:mx-5 sm:mx-auto my-5 pb-5 rounded overflow-hidden shadow-lg">
-      <img className="w-full" src={image.webformatURL} alt="Random from unsplash"/>
+    <div className="max-w-sm mx-auto my-5 pb-5 rounded overflow-hidden border border-gray-200 shadow-sm md:mx-5">
+      <img className="w-full h-56 object-cover" src={image.webformatURL} alt="Random from unsplash"/>
       <div className="px-6 pt-6">
         <div className="font-bold text-xl mb-2">{image.user}</div>
       </div>
