@@ -1,5 +1,7 @@
 # Tailwind Gallery
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68389eed-1a5b-4d58-8c6c-a88e8364caa5/deploy-status)](https://app.netlify.com/sites/laughing-noyce-cd1f9d/deploys)
+
 ![tailwind-poster](https://repository-images.githubusercontent.com/292131437/1cdac300-ecc6-11ea-83a5-4054e49be38b)
 
 ## About
