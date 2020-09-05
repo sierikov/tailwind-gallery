@@ -8,7 +8,7 @@ const ImageCard = ({ image }) => {
       <img
         className="w-full h-56 object-cover"
         src={image.webformatURL}
-        alt="Random from unsplash"
+        alt={tags}
       />
       <div className="px-6 pt-6">
         <div className="font-bold text-xl mb-2">{image.user}</div>
