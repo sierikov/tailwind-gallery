@@ -1,6 +1,7 @@
 # Tailwind Gallery
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/68389eed-1a5b-4d58-8c6c-a88e8364caa5/deploy-status)](https://app.netlify.com/sites/laughing-noyce-cd1f9d/deploys)
+[![Maintainability](https://api.codeclimate.com/v1/badges/9dd9659dffc72eee6b52/maintainability)](https://codeclimate.com/github/sierikov/tailwind-gallery/maintainability)
 
 ![tailwind-poster](./public/poster.jpg)
 
